@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Best High Paying VPN Affiliate Program - PureVPN Affiliate Program
+    </title>
+     <!-- Latest compiled and minified CSS -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+     <!-- Latest compiled and minified JavaScript --> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   </head>
+  <body>
+
+    <style type="text/css">
+        .universe_affiliation_earn_calculater .section-heading{
+            font-size: 40px;
+            font-family: "avenir-black",Times,Serif;
+            color: #fff;
+            text-align: center;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+        section.universe_affiliation_earn_calculater{ 
+            padding: 60px 0 52px;
+            position: relative;
+            background-color: #11012c;
+            background-position: top center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        section.universe_affiliation_earn_calculater .container{ 
+            max-width: 1010px;
+            width: 100%;
+        }
+        section.universe_affiliation_earn_calculater .red-color{ 
+            color:red;
+        }
+        section.universe_affiliation_earn_calculater .error-msg{ 
+            display: none;
+        }
+        section.universe_affiliation_earn_calculater .content-box{
+            background-image: url(https://images.purevpn-tools.com/public/images/78630_affiliation_calc_bg.png);
+            background-color: #fff;
+            padding: 30px 45px;
+            max-width:978px;
+            border-radius: 0 0 25px 25px;
+            background-position-x: right;
+            background-repeat: no-repeat;
+        }
+        .universe_affiliation_earn_calculater .intro-para{
+            max-width: 536px;
+            text-align: center;
+            margin: 0 auto 25px;
+            font-size: 16px;
+            font-family: "avenir-roman",Times,Serif;
+        }
+        .universe_affiliation_earn_calculater .calc-dropdown{
+            max-width: 300px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: url(https://images.purevpn-tools.com/public/images/79244-arrow-down.png)no-repeat 98% #fff;
+            -moz-appearance: none;
+        }
+        .universe_affiliation_earn_calculater .calc-label, .universe_affiliation_earn_calculater .calc-val{
+            margin: 15px 0 ;
+            font-size: 20px;
+            color: #808080;
+            font-family: "avenir-roman",Times,Serif;
+            display: inline-block;
+        }
+        .universe_affiliation_earn_calculater .slider-value{
+            color: #6939ff;
+        }
+        .universe_affiliation_earn_calculater .range-slider{
+            max-width:400px;
+            float: right;
+            width: 100%;    
+            margin: 25px 0px;
+            -webkit-appearance: none;
+            height: 6px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            position: relative;
+        }
+        .universe_affiliation_earn_calculater .range-slider::before{
+            content: "";
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background: #6939ff;
+            border:5px solid #fff;
+            cursor: pointer;
+            box-shadow: 0px 0px 6px 0px #888888;
+            display: inline-block;
+            position: absolute;
+            top: -5px;
+            left: -12px;
+        }
+        .universe_affiliation_earn_calculater .range-slider:hover {
+            /*opacity: 1;*/
+        }
+        .universe_affiliation_earn_calculater .range-slider::-webkit-slider-runnable-track {
+              height: 17px;
+              -webkit-appearance: none;
+              color: #13bba4;
+              margin-top: -1px;
+        }
+        .universe_affiliation_earn_calculater .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background: #6939ff;
+            border:5px solid #fff;
+            cursor: pointer;
+            box-shadow: 0px 0px 6px 0px #888888;
+        }
+        .universe_affiliation_earn_calculater .range-slider::-moz-range-thumb {
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background: #6939ff;
+            cursor: pointer;
+        }
+        .universe_affiliation_earn_calculater .tabs-list{
+            width: 33.3%;
+            border: 1px solid #e8e8e8;
+            border:none;
+
+        }
+        .universe_affiliation_earn_calculater .tabs-list:first-child a {
+            border-radius: 25px 0 0;
+        }
+        .universe_affiliation_earn_calculater .tabs-list:last-child a {
+            border-radius:0 25px 0 0;
+        }
+        .universe_affiliation_earn_calculater .tabs-list.active{
+            /*background-color: #ff600  0; */
+        }
+        .universe_affiliation_earn_calculater .tabs-list.active a{
+            margin: 0;
+            color: #FFF
+        }
+        .universe_affiliation_earn_calculater .tabs-list a{
+            padding: 25px 0;
+            text-align: center;
+            font-size: 20px;
+            color: #000;
+            font-family: "avenir-heavy",Times,Serif;
+            background-color: #fafafa;
+            margin: 0;
+            border-radius: 0;
+            border-top: none;
+        }
+        .universe_affiliation_earn_calculater .total-box{
+            background-color: #eeeeee;
+            border-radius: 10px;
+        }
+        .universe_affiliation_earn_calculater .total-box .yearly-total-box{
+            background-color: #6939ff;
+            color: #fff;
+            border-radius: 0 10px 10px 0;
+        }
+        .universe_affiliation_earn_calculater .total-box .w-color{
+            color: #fff;
+        }
+        .universe_affiliation_earn_calculater .total-box .yearly-total-box .perYear-total{
+            color: #fff;
+        }
+        .universe_affiliation_earn_calculater .disclamer{
+            color: #fff;
+            text-align: center;
+            max-width: 700px;
+            display: block;
+            margin: 25px auto 0;
+        }
+        .nav {
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+        .nav-tabs {
+            border-bottom: 1px solid #ddd;
+        }
+        .nav-tabs>li {
+            float: left;
+            margin-bottom: -1px;
+        }
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover{
+            color: #ffffff;
+            background-color: #ff6000; 
+        }
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+            color: #555;
+            cursor: default;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+        }
+        .nav-tabs>li>a:hover {
+            border-color: #eee #eee #ddd;
+        }
+        .nav>li>a:hover {
+            text-decoration: none;
+            background-color: #eee;
+        }
+        .nav-tabs>li>a {
+           margin-right: 2px;
+           line-height: 1.42857143;
+           border: 1px solid transparent;
+           border-radius: 4px 4px 0 0;
+        }
+         .nav>li>a {
+          position: relative;
+          display: block;
+          padding: 10px 15px;
+         }
+         a:hover {
+            color: #23527c;
+            text-decoration: underline;
+        }
+        a:hover {
+           outline: 0;
+        }
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+           color: #fff;
+           background-color: #ff6000;
+        }
+         .nav>li {
+            position: relative;
+            display: block;
+          }
+         .tab-content>.tab-pane.active {
+            display: block;
+          }
+          .tab-content>.tab-pane {
+            display: none;
+          }
+          .fade.in {
+            opacity: 1;
+          }
+          .fade {
+            opacity: 0;
+            -webkit-transition: opacity .15s linear;
+            -o-transition: opacity .15s linear;
+             transition: opacity .15s linear;
+          }
+          .nav:before{
+             display: table;
+             content: " ";
+           }
+           .nav:after{
+             display: table;
+             content: " ";
+             clear: both;
+           }
+           .form-control {
+             display: block;
+             width: 100%;
+             height: 34px;
+             padding: 6px 12px;
+             font-size: 14px;
+             line-height: 1.42857143;
+             color: #555;
+             background-color: #fff;
+             background-image: none;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+             -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+             box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+             -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+             -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+             transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+           }
+          
+        @media only screen and (max-width: 767px) {
+            section.universe_affiliation_earn_calculater{ 
+                padding: 30px 0;
+            }
+            .universe_affiliation_earn_calculater .section-heading{
+                font-size: 30px;
+            }
+            .universe_affiliation_earn_calculater .calc-label{
+                font-size: 25px;
+                color: #000;
+            }
+            .universe_affiliation_earn_calculater .total-box .yearly-total-box{
+                    border-radius: 0 0 10px 10px;
+            }
+            
+        }
+        @media only screen and (max-width: 500px) {
+            .universe_affiliation_earn_calculater .tabs-list a{
+                font-size: 10px;
+            }
+            .universe_affiliation_earn_calculater .calc-label{
+                font-size: 14px;
+                margin: 5px 0;
+            }
+            .universe_affiliation_earn_calculater .calc-val{
+                font-size: 15px;
+                margin: 5px 0;
+            }
+            .universe_affiliation_earn_calculater .intro-para {
+                font-size: 12px;
+            }
+            .universe_affiliation_earn_calculater .section-heading{
+                font-size: 18px;
+            }
+            .form-control{
+                font-size: 12px;
+            }
+            .universe_affiliation_earn_calculater .disclamer{
+                font-size: 12px;
+            }
+            
+        }
+    </style>
+
+      <section class="universe_affiliation_earn_calculater" style="background-image:url(https://images.purevpn-tools.com/public/images/78630_affiliation_calculator_bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-heading">How Much Will I Earn?</h2>
+                    <ul class="nav nav-tabs">
+                        <li class="active tabs-list"> <a data-toggle="tab" href="#pkg_1"> Yearly Plan </a> </li>
+                        <li class="no tabs-list"> <a data-toggle="tab" href="#pkg_2"> Seasonal Deal </a> </li>
+                        <li class="no tabs-list"> <a data-toggle="tab" href="#pkg_3"> One Month Plan </a> </li>
+                    </ul>
+                    <div class="tab-content content-box">
+                        <div id="pkg_1" class="active tab-pane fade in">
+                            <p class="intro-para">Use the slider to find out how much you could earn from PureVPN based on the amount of traffic you send to the advertiser’s site</p>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Type</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <select class="calc-dropdown form-control">
+                                        <option selected="" disabled=""> Please Select</option>
+                                        <option value="Organic Search" data-rate="20" data-percent="%"> Organic</option>
+                                        <option value="Display" data-rate="4" data-percent="%"> Display</option>
+                                        <option value="Paid" data-rate="12" data-percent="%"> Paid</option>
+                                        <option value="POP/Push" data-rate="4" data-percent="%"> POP/Push</option>
+                                        <option value="Social" data-rate="15" data-percent="%"> Social</option>
+                                        <option value="Newsletter" data-rate="10" data-percent="%"> Newsletter</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Per Month (Unique Clicks)</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val slider-value"> 30 </span> <span class=""> <input type="range" min="1" max="5000" value="30" class="range-slider" style="background-image: -webkit-gradient( linear, left top, right top, color-stop(0.006, #6939ff), color-stop(0.006, #C5C5C5) );"> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Commision</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> <span class="com-percent">40</span>% </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">AOV</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> $<span class="avo">55</span> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Conversion Rate</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="calc-val conversion-rate">Please Select Traffic Type</p>
+                                </div>
+                            </div>
+                            <div class="row total-box">
+                                <div class="col-sm-5">
+                                    <p class="calc-label ">Earning potential</p>
+                                </div>
+                                <div class="col-sm-3"> <span class="calc-val">$</span> <span class="perMonth-total calc-val">00 </span> /month </div>
+                                <div class="col-sm-3 col-sm-offset-1 yearly-total-box"> <span class="calc-val w-color">$</span> <span class="perYear-total calc-val">00 </span> /Year </div>
+                            </div>
+                        </div>
+                        <div id="pkg_2" class="no tab-pane fade in">
+                            <p class="intro-para">Use the slider to find out how much you could earn from PureVPN based on the amount of traffic you send to the advertiser’s site</p>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Type</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <select class="calc-dropdown form-control">
+                                        <option selected="" disabled=""> Please Select</option>
+                                        <option value="Organic Search" data-rate="20" data-percent="%"> Organic</option>
+                                        <option value="Display" data-rate="4" data-percent="%"> Display</option>
+                                        <option value="Paid" data-rate="12" data-percent="%"> Paid</option>
+                                        <option value="POP/Push" data-rate="4" data-percent="%"> POP/Push</option>
+                                        <option value="Social" data-rate="15" data-percent="%"> Social</option>
+                                        <option value="Newsletter" data-rate="10" data-percent="%"> Newsletter</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Per Month (Unique Clicks)</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val slider-value"> 50 </span> <span class=""> <input type="range" min="1" max="5000" value="50" class="range-slider" style="background-image: -webkit-gradient( linear, left top, right top, color-stop(0.01, #6939ff), color-stop(0.01, #C5C5C5) );"> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Commision</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> <span class="com-percent">40</span>% </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">AOV</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> $<span class="avo">55</span> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Conversion Rate</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="calc-val conversion-rate">Please Select Traffic Type</p>
+                                </div>
+                            </div>
+                            <div class="row total-box">
+                                <div class="col-sm-5">
+                                    <p class="calc-label ">Earning potential</p>
+                                </div>
+                                <div class="col-sm-3"> <span class="calc-val">$</span> <span class="perMonth-total calc-val">00 </span> /month </div>
+                                <div class="col-sm-3 col-sm-offset-1 yearly-total-box"> <span class="calc-val w-color">$</span> <span class="perYear-total calc-val">00 </span> /Year </div>
+                            </div>
+                        </div>
+                        <div id="pkg_3" class="no tab-pane fade in">
+                            <p class="intro-para">Use the slider to find out how much you could earn from PureVPN based on the amount of traffic you send to the advertiser’s site</p>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Type</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <select class="calc-dropdown form-control">
+                                        <option selected="" disabled=""> Please Select</option>
+                                        <option value="Organic Search" data-rate="20" data-percent="%"> Organic</option>
+                                        <option value="Display" data-rate="4" data-percent="%"> Display</option>
+                                        <option value="Paid" data-rate="12" data-percent="%"> Paid</option>
+                                        <option value="POP/Push" data-rate="4" data-percent="%"> POP/Push</option>
+                                        <option value="Social" data-rate="15" data-percent="%"> Social</option>
+                                        <option value="Newsletter" data-rate="10" data-percent="%"> Newsletter</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Traffic Per Month (Unique Clicks)</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val slider-value"> 100 </span> <span class=""> <input type="range" min="1" max="5000" value="100" class="range-slider" style="background-image: -webkit-gradient( linear, left top, right top, color-stop(0.02, #6939ff), color-stop(0.02, #C5C5C5) );"> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Commision</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> <span class="com-percent">100</span>% </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">AOV</p>
+                                </div>
+                                <div class="col-sm-7"> <span class="calc-val"> $<span class="avo">10</span> </span> </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <p class="calc-label">Conversion Rate</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="calc-val conversion-rate">Please Select Traffic Type</p>
+                                </div>
+                            </div>
+                            <div class="row total-box">
+                                <div class="col-sm-5">
+                                    <p class="calc-label ">Earning potential</p>
+                                </div>
+                                <div class="col-sm-3"> <span class="calc-val">$</span> <span class="perMonth-total calc-val">00 </span> /month </div>
+                                <div class="col-sm-3 col-sm-offset-1 yearly-total-box"> <span class="calc-val w-color">$</span> <span class="perYear-total calc-val">00 </span> /Year </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="disclamer"> *These are tentative numbers derived from the performance of our best affiliates. However, it could vary as per your traffic quality and sources. </p>
+        </div>
+    </section>        
+
+    <script>
+        $(document).ready(function() {
+            $('.range-slider').on("change mousemove", function () {
+                trackColor(this);
+            });
+            function trackColor(thisArr) {
+                var val = ($(thisArr).val() - $(thisArr).attr('min')) / ($(thisArr).attr('max') - $(thisArr).attr('min'));
+                $(thisArr).css('background-image',
+                            '-webkit-gradient(linear, left top, right top, '
+                            + 'color-stop(' + val + ', #6939ff), '
+                            + 'color-stop(' + val + ', #C5C5C5)'
+                            + ')'
+                            );
+                var sliderVal = $(thisArr).val();
+                $(thisArr).closest('.tab-pane').find('.slider-value').text(sliderVal);
+            }    
+
+            $('.range-slider').on("change", function () {
+                var closestTab = $(this).closest('.tab-pane');
+                var conversionRateText = closestTab.find('.conversion-rate-val');
+                var commissionPriceText = closestTab.find('.com-price');
+                var commissionPercentText = closestTab.find('.com-percent');
+                var perMonthTotalSelector = closestTab.find('.perMonth-total');
+                var perYearTotalSelector = closestTab.find('.perYear-total');
+                var tpr = jQuery(this).val();
+                var commissionPercent = commissionPercentText.text();
+                var commissionPrice = commissionPriceText.text();
+                var conversionRate = conversionRateText.text();
+                var avo = closestTab.find('.avo').text();
+                /* converting it in integer */
+                var initTpr = parseInt(tpr);
+                var initCommission = parseInt(commissionPercent);
+                var initcommissionPrice = parseInt(commissionPrice);
+                var initConversionRate = parseInt(conversionRate);
+                var initAvo = parseInt(avo);
+
+                if(  ($.isNumeric(initTpr) && $.isNumeric(initCommission) && $.isNumeric(initConversionRate) && $.isNumeric(initAvo)) 
+                    || ($.isNumeric(initTpr) && $.isNumeric(initcommissionPrice) && $.isNumeric(initConversionRate) && $.isNumeric(initAvo))){
+                    
+                    if (conversionRateText.length) {
+                        if (commissionPercentText.length) {
+                            var monthlyTotal = ((initTpr*initConversionRate)/100) * ((initAvo*initCommission)/100) 
+                            perMonthTotalSelector.text(monthlyTotal.toFixed(2));
+                            var yearlyTotal = monthlyTotal*12;
+                            perYearTotalSelector.text(yearlyTotal.toFixed(2));
+                        }else if(commissionPriceText.length){
+                            var monthlyTotal = ((initTpr*initConversionRate)/100) * initcommissionPrice;
+                            perMonthTotalSelector.text(monthlyTotal.toFixed(2));
+                            var yearlyTotal = monthlyTotal*12;
+                            perYearTotalSelector.text(yearlyTotal.toFixed(2));
+                        }
+                    }else{
+                        closestTab.find('.conversion-rate').addClass('red-color');
+                    }
+                }else{
+                   if (!conversionRateText.length) {
+                        closestTab.find('.conversion-rate').addClass('red-color');
+                    } else{
+                        closestTab.find('.red-color').removeClass('error-msg');
+                    }
+                }
+            });
+        });
+        jQuery(document).on('change', '.calc-dropdown', function() {
+            var closestTab = $(this).closest('.tab-pane');
+
+            var element = $(this).find('option:selected'); 
+            var converRate = element.attr("data-rate"); 
+            var percentSign = element.attr("data-percent"); 
+            closestTab.find('.conversion-rate').html('<span class="conversion-rate-val">'+converRate+'</span>'+percentSign);
+            closestTab.find('.conversion-rate').removeClass('red-color');
+
+
+            var conversionRateText = closestTab.find('.conversion-rate-val');
+            var commissionPriceText = closestTab.find('.com-price');
+            var commissionPercentText = closestTab.find('.com-percent');
+            var perMonthTotalSelector = closestTab.find('.perMonth-total');
+            var perYearTotalSelector = closestTab.find('.perYear-total');
+
+            var tpr = closestTab.find('.range-slider').val();
+            var commissionPercent = commissionPercentText.text();
+            var commissionPrice = commissionPriceText.text();
+            var conversionRate = conversionRateText.text();
+            var avo = closestTab.find('.avo').text();
+
+            /* converting it in integer */
+            var initTpr = parseInt(tpr);
+            var initCommission = parseInt(commissionPercent);
+            var initcommissionPrice = parseInt(commissionPrice);
+            var initConversionRate = parseInt(conversionRate);
+            var initAvo = parseInt(avo);
+
+            if(  ($.isNumeric(initTpr) && $.isNumeric(initCommission) && $.isNumeric(initConversionRate) && $.isNumeric(initAvo)) 
+                    || ($.isNumeric(initTpr) && $.isNumeric(initcommissionPrice) && $.isNumeric(initConversionRate) && $.isNumeric(initAvo))){
+                if (commissionPercentText.length) {
+
+                    var monthlyTotal = ((initTpr*initConversionRate)/100) * ((initAvo*initCommission)/100) 
+                    perMonthTotalSelector.text(monthlyTotal.toFixed(2));
+                    var yearlyTotal = monthlyTotal*12;
+                    perYearTotalSelector.text(yearlyTotal.toFixed(2));
+
+                }else if(commissionPriceText.length){
+                    var monthlyTotal = ((initTpr*initConversionRate)/100) * initcommissionPrice
+                    perMonthTotalSelector.text(monthlyTotal.toFixed(2));
+                    var yearlyTotal = monthlyTotal*12;
+                    perYearTotalSelector.text(yearlyTotal.toFixed(2));
+                }
+            }else{
+                closestTab.find('.red-color').removeClass('error-msg');
+            }
+        });
+    </script>
+
+  </body>
+</html>
